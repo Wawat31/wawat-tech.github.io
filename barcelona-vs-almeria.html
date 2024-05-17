@@ -27,33 +27,3 @@
 <a href="wawat-tech.my.id">Kang Wawat</a>
 </center>
 </p>
-
-
-<!DOCTYPE html>
-<html lang="en">
-...
-  
-<body>
-   ...
-  
-  <script>
-    ...
-    
-    //<!-- Configure a Source for the player -->
-    var sourceConfig = {
-      "title": "Default Demo Source Config",
-      "description": "Select another example in \"Configure a Source for the player\" to test it here",
-      "dash": "https://bmtestbucket2022.s3.us-west-2.amazonaws.com/myvideo/stream.mpd",
-      "poster": "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/poster.jpg"
-    }
-    
-    //<!-- Load the player -->
-    player.load(sourceConfig).then(function() {
-        console.log('Successfully loaded Source Config!');
-      }).catch(function(reason) {
-        console.log('Error while loading source:', reason);
-      }
-    );
-    
-    ...
-
