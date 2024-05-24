@@ -1,0 +1,27 @@
+
+proxies:
+- name: ko.id
+  server: bug
+  type: vmess
+  port: 80
+  uuid: (isi)
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: (kosongkan)
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: jav1.wbvpn.cloud
+  udp: true
+
+
+
+Disclaimer !
+(Silahkan di Copy,jangan di publikasikan ke FB,IG,YT,TIKTOK,dokumen ini bersifat privasi)
+
+Credit by 
+- wawat-iptv.my.id
+- wawat-tech.my.id
